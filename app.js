@@ -4,7 +4,7 @@ const request = require("request");
 const bodyParser = require("body-parser");
 const https =require("https");
 const { options } = require("request");
-require('dotenv').config();
+require('dotenv').config({path : 'vars/.env'});
 
 
 
